@@ -9,6 +9,7 @@ public class ExceptionHandling2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FileInputStream fis = null;
+		
 		try {									//예외가 발생할 수 있는 부분
 			fis = new FileInputStream("a.txt");
 		} catch (FileNotFoundException e) {		//예외 처리 부분
@@ -25,6 +26,7 @@ public class ExceptionHandling2 {
 			}
 			System.out.println("항상 수행 됩니다.");
 		}
+		
 		System.out.println("여기도 수행됩니다.");	//16행 return으로 인해 수행 x
 	}
 

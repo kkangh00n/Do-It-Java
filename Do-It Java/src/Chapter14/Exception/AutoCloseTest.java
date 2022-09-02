@@ -7,7 +7,7 @@ public class AutoCloseTest {
 		AutoCloseObj obj = new AutoCloseObj();
 		
 		try(obj){ //사용할 리소스 선언
-			//throw new Exception(); //강제 예외 발생
+			throw new Exception(); //강제 예외 발생
 		} catch(Exception e) {
 			System.out.println("예외 부분이다.");
 		}

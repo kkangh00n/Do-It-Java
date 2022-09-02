@@ -9,7 +9,9 @@ import java.io.FileNotFoundException;
 public class ExceptionHandling1 {
 
 	public static void main(String[] args) {
+		
 		try { //예외가 발생할 수 있는 부분
+			
 			FileInputStream fix = new FileInputStream("a.txt"); //예외 발생 부분
 		} catch (FileNotFoundException e) { //예외 처리 부분
 			// TODO Auto-generated catch block
