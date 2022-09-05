@@ -1,6 +1,7 @@
 package Chapter15.inputstream;
 
 //InputStream = 바이트 단위로 읽는 스트림 중 최상위 클래스
+//-> 입력, 바이트 단위, 기반
 
 import java.io.FileInputStream;
 import java.io.IOException;

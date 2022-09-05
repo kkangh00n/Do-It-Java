@@ -1,6 +1,6 @@
 package Chapter15.others;
 
-import java.util.Scanner;	//Scanner로 다양한 자료 입력
+import java.util.Scanner;	//Scanner로 다양한 자료 입력 -> 문자, 정수, 실수 등
 
 public class ScannerTest {
 
